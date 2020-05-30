@@ -1,0 +1,12 @@
+basic.forever(function () {
+    led.setBrightness(randint(0, 255))
+    led.plot(randint(0, 4), randint(0, 4))
+    led.setBrightness(randint(0, 255))
+    led.plot(randint(0, 4), randint(0, 4))
+    led.setBrightness(randint(0, 255))
+    led.plot(randint(0, 4), randint(0, 4))
+    led.setBrightness(randint(0, 255))
+    led.plot(randint(0, 4), randint(0, 4))
+    basic.pause(100)
+    basic.clearScreen()
+})
